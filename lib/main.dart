@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'chatscreen.dart';
+import 'freeai_chatscreen.dart';
 
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ChatScreen(),
+      home: const FreeAIChatScreen(),
     );
   }
 }

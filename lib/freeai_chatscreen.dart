@@ -8,14 +8,14 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:language_code/language_code.dart';
 
-class ChatScreen extends StatefulWidget {
-  const ChatScreen({super.key});
+class FreeAIChatScreen extends StatefulWidget {
+  const FreeAIChatScreen({super.key});
 
   @override
-  State<ChatScreen> createState() => _ChatScreenState();
+  State<FreeAIChatScreen> createState() => _FreeAIChatScreenState();
 }
 
-class _ChatScreenState extends State<ChatScreen> {
+class _FreeAIChatScreenState extends State<FreeAIChatScreen> {
   final TextEditingController _textController = TextEditingController();
   final List<ChatMessage> _messages = [];
   final ImagePicker _picker = ImagePicker();
