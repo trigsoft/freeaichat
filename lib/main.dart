@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'chatscreen.dart';
+import 'freeai_chatscreen.dart';
 
 
 void main() {
@@ -17,8 +17,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ChatScreen(),
+      home: const FreeAIChatScreen(
+          title:'FreeAI Chat',
+          defaultPrompt:"You are ai chatbot. Please translate all the result in <language>."
+      ),
     );
   }
 }
+
 
